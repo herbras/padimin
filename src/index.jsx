@@ -32,7 +32,6 @@ function App() {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      const newValue = calculateTimeLeft();
       setTimeLeft(calculateTimeLeft());
     }, 1000);
 
