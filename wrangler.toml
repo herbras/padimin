@@ -1,0 +1,4 @@
+name = "countdownramadhan"
+main = "dist/index.js"
+compatibility_date = "2023-12-31"
+node_compat = true

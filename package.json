@@ -1,0 +1,26 @@
+{
+	"name": "count",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "npx concurrently \"npx babel src --out-dir dist --watch\" \"npx nodemon --delay 5ms dist/index.js\" \"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch --minify\"",
+		"build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+		"build:js": "npx babel src --out-dir dist",
+		"build": "npm run build:css && npm run build:js"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.20.7",
+		"@babel/plugin-syntax-jsx": "^7.21.4",
+		"postcss-import": "^15.1.0",
+		"tailwindcss": "^3.4.0"
+	},
+	"dependencies": {
+		"seniman": "^0.0.134",
+		"wrangler": "^3.22.1"
+	}
+}
