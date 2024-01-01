@@ -1,5 +1,6 @@
 ## Roast My Code, Please
 
+### Crafting Countdown ini terinspirasi dari karya mas Zakiego, (Ramadan)[https://ramadan.zakiego.com/]
 
 | Perintah      | Deskripsi                                                                                                                           |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------|
